@@ -8,4 +8,4 @@
 * Başarılı olunca birden fazla kullanıcı çekmek için kullanılan parametreyi araştırdım. Sitesinde bu parametrenin results olduğunu öğrendim ve koduma ekledim.
 * Son olarak Python'da nasıl dosyaya yazı yazdırılır diye araştırdım ve kodumda uyguladım.
 
-Sonuç olarak: Kullanıcıdan alınan sayı kadar veriyi çekip, .txt dosyasına yazdıran bir uygulama hazırladım.
+Kullanıcıdan alınan sayı kadar veriyi çekip, .txt dosyasına yazdıran bir uygulama hazırladım.
