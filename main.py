@@ -6,7 +6,6 @@ url = f"https://randomuser.me/api/?results={sayi}"
 cevap = requests.get(url)
 veri = cevap.json()
 
-
 kullaniciverisi = veri["results"]
 
 with open("kullaniciverisi.txt", "w" , encoding="utf-8" ) as dosya:
@@ -20,4 +19,5 @@ with open("kullaniciverisi.txt", "w" , encoding="utf-8" ) as dosya:
         dosya.write("--------------------------------------\n")
 
         sayac = sayac + 1
+
 
