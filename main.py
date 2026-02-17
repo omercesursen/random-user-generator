@@ -16,7 +16,8 @@ with open("kullaniciverisi.txt", "w" , encoding="utf-8" ) as dosya:
         dosya.write(f"Adı: {kullanici['name']['first']}\n")
         dosya.write(f"Soyadı: {kullanici['name']['last']}\n")
         dosya.write(f"Email Adresi: {kullanici['email']}\n")
-        dosya.write(f"Telefonu: = {kullanici['phone']}\n")
+        dosya.write(f"Telefonu: {kullanici['phone']}\n")
         dosya.write("--------------------------------------\n")
 
         sayac = sayac + 1
+
